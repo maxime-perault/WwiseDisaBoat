@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A6D74BB-8773-4019-948E-D328F6E49762}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2A6D74BB-8773-4019-948E-D328F6E49762}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambiance_play" ID="{35FE8C9C-BFDF-4E25-AC95-E996EB3B3A56}">
+					<ChildrenList>
+						<Action Name="" ID="{01A90501-8592-469A-A662-F61884379401}" ShortID="876614463">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiance" ID="{8E13334A-42FB-4F0B-BCB2-00E27A2D121D}" WorkUnitID="{809AAB9C-5488-4FED-8156-9AEC7B2588E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="poui_play" ID="{19A3AF51-712A-452A-8FFE-21503C2C5588}">
+					<ChildrenList>
+						<Action Name="" ID="{F909939E-F9A4-4D48-B82A-0A9E94760E95}" ShortID="253695863">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="poui" ID="{B18E5049-2A4D-4931-8564-E93C0E6ECE79}" WorkUnitID="{809AAB9C-5488-4FED-8156-9AEC7B2588E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

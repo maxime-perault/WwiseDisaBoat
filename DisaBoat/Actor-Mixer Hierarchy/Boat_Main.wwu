@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{809AAB9C-5488-4FED-8156-9AEC7B2588E0}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Boat_Main" ID="{809AAB9C-5488-4FED-8156-9AEC7B2588E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="ambiance" ID="{8E13334A-42FB-4F0B-BCB2-00E27A2D121D}" ShortID="136688419">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sea_loop" ID="{5BCF6B4F-EC13-4721-A980-8CEE2F76AB07}" ShortID="209735026">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sea_loop" ID="{6D34AA97-1976-444C-884A-86FC35002530}" ShortID="369011889">
+									<Language>SFX</Language>
+									<AudioFile>sea_loop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sea_loop" ID="{6D34AA97-1976-444C-884A-86FC35002530}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<Sound Name="poui" ID="{B18E5049-2A4D-4931-8564-E93C0E6ECE79}" ShortID="243860617">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sea_loop" ID="{B7BFC408-CE10-42C9-8FB2-8FCAD41EDABE}" ShortID="171520191">
+							<Language>SFX</Language>
+							<AudioFile>sea_loop.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="369011889"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sea_loop" ID="{B7BFC408-CE10-42C9-8FB2-8FCAD41EDABE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

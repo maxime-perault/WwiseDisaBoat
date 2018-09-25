@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="89">
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1537868372" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1537868373" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Attenuations\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Audio Devices\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Control Surface Sessions\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Conversion Settings\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1537868372" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\DisaBoat.wproj" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Effects\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Effects\Factory Effects.wwu" DateLow="1537868372" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Events\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Game Parameters\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Game Parameters\Factory Motion.wwu" DateLow="1537868372" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Mixing Sessions\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Modulators\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Presets\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Queries\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Queries\Factory Queries.wwu" DateLow="1537868372" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\SoundBanks\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\States\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Switches\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Triggers\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GIT\WwiseDisaBoat\DisaBoat\Virtual Acoustics\Default Work Unit.wwu" DateLow="1537868544" DateHigh="0"/>
+</ValidationCache>
