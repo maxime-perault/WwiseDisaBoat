@@ -8,14 +8,16 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	45495111	seagull-004	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\seagull-004_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\mouette\seagull-004		265332
-	164836163	wind_high	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\wind_high_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\wind\wind_high		5777724
 	168314728	seagull-001	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\seagull-001_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\mouette\seagull-001		419444
 	171520191	sea_loop	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\sea_loop_8956FC97.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\sea_loop		10451764
 	195708947	wind_low	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\wind_low_8956FC97.wem		\Actor-Mixer Hierarchy\Boat_Main\wind\wind_low		5777724
 	322729284	seagull-006	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\seagull-006_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\mouette\seagull-006		366200
+	326910059	instru seule intro 124	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\instru seule intro 124_8956FC97.wem		\Interactive Music Hierarchy\music_main\music_loop\instru seule intro 124\instru seule intro 124		15705356
+	397386969	lala 124	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\lala 124_8956FC97.wem		\Interactive Music Hierarchy\music_main\music_loop\lala 124\lala 124		14339676
+	461075410	wind_high	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\wind_high_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\wind\wind_high		5777724
 	475634709	seagull-003	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\seagull-003_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\mouette\seagull-003		91204
 	706409842	seagull-002	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\seagull-002_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\mouette\seagull-002		934908
-	726295904	musique placeholder 124	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\musique placeholder 124_8956FC97.wem		\Interactive Music Hierarchy\music_main\music_loop\musique placeholder 124\musique placeholder 124		12974000
 	743011693	seagull-005	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\seagull-005_56D34C19.wem		\Actor-Mixer Hierarchy\Boat_Main\ambiance\mouette\seagull-005		867932
+	831042860	paroles 124	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\paroles 124_8956FC97.wem		\Interactive Music Hierarchy\music_main\music_loop\paroles 124\paroles 124		14339676
 	954711377	wind_mid	D:\GIT\WwiseDisaBoat\DisaBoat\.cache\Windows\SFX\wind_mid_8956FC97.wem		\Actor-Mixer Hierarchy\Boat_Main\wind\wind_mid		5777724
 

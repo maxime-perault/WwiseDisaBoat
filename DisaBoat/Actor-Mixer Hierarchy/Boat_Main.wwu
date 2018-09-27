@@ -243,6 +243,11 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>33.75338</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>100</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
@@ -271,7 +276,43 @@
 								<ActiveSource Name="wind_mid" ID="{14935EEA-01D6-498B-8065-8627A891ED2A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="wind_high" ID="{56B297A4-3F0A-47B7-B0D4-45B11F8ABEE4}" ShortID="397696339">
+						<Sound Name="wind_high" ID="{75D8BD12-1331-4C4A-B70C-DF9D1D896E2A}" ShortID="1043252095">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{CAFF83EB-7C0A-45DC-A8AA-D00D4425468C}" ShortID="850000265">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="speed" ID="{629DBF18-1A2E-424D-B2FF-FD81B7E20495}" WorkUnitID="{B338E30A-DC08-4317-81DC-B34176C4599F}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8810C639-F8C6-4F6E-958B-65088C785936}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>58.68587</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
@@ -281,13 +322,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="wind_high" ID="{ADBECE60-BB52-4FE5-8FB7-C343B1B8BEE2}" ShortID="164836163">
+								<AudioFileSource Name="wind_high" ID="{7B0BC226-EEBE-477D-8BE5-8C45EE8720D5}" ShortID="461075410">
 									<Language>SFX</Language>
 									<AudioFile>wind_high.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="wind_high" ID="{ADBECE60-BB52-4FE5-8FB7-C343B1B8BEE2}" Platform="Linked"/>
+								<ActiveSource Name="wind_high" ID="{7B0BC226-EEBE-477D-8BE5-8C45EE8720D5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

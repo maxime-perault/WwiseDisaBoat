@@ -13,11 +13,15 @@
 							<ObjectRef Name="Wind_play" ID="{5B3376CD-E92F-4256-A98B-8857FDDE3394}" WorkUnitID="{2A6D74BB-8773-4019-948E-D328F6E49762}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Music_play" ID="{A08778E8-5A85-4C51-9A49-DDEED70E4725}" WorkUnitID="{2A6D74BB-8773-4019-948E-D328F6E49762}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="speed" ID="{629DBF18-1A2E-424D-B2FF-FD81B7E20495}"/>
-							<Value>100</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>

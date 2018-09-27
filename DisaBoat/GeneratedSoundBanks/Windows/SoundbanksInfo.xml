@@ -30,10 +30,6 @@
 					<ShortName>seagull-004.wav</ShortName>
 					<Path>SFX\seagull-004_56D34C19.wem</Path>
 				</File>
-				<File Id="164836163" Language="SFX">
-					<ShortName>wind_high.wav</ShortName>
-					<Path>SFX\wind_high_56D34C19.wem</Path>
-				</File>
 				<File Id="168314728" Language="SFX">
 					<ShortName>seagull-001.wav</ShortName>
 					<Path>SFX\seagull-001_56D34C19.wem</Path>
@@ -50,6 +46,18 @@
 					<ShortName>seagull-006.wav</ShortName>
 					<Path>SFX\seagull-006_56D34C19.wem</Path>
 				</File>
+				<File Id="326910059" Language="SFX">
+					<ShortName>instru seule intro 124.wav</ShortName>
+					<Path>SFX\instru seule intro 124_8956FC97.wem</Path>
+				</File>
+				<File Id="397386969" Language="SFX">
+					<ShortName>lala 124.wav</ShortName>
+					<Path>SFX\lala 124_8956FC97.wem</Path>
+				</File>
+				<File Id="461075410" Language="SFX">
+					<ShortName>wind_high.wav</ShortName>
+					<Path>SFX\wind_high_56D34C19.wem</Path>
+				</File>
 				<File Id="475634709" Language="SFX">
 					<ShortName>seagull-003.wav</ShortName>
 					<Path>SFX\seagull-003_56D34C19.wem</Path>
@@ -58,13 +66,13 @@
 					<ShortName>seagull-002.wav</ShortName>
 					<Path>SFX\seagull-002_56D34C19.wem</Path>
 				</File>
-				<File Id="726295904" Language="SFX">
-					<ShortName>musique placeholder 124.wav</ShortName>
-					<Path>SFX\musique placeholder 124_8956FC97.wem</Path>
-				</File>
 				<File Id="743011693" Language="SFX">
 					<ShortName>seagull-005.wav</ShortName>
 					<Path>SFX\seagull-005_56D34C19.wem</Path>
+				</File>
+				<File Id="831042860" Language="SFX">
+					<ShortName>paroles 124.wav</ShortName>
+					<Path>SFX\paroles 124_8956FC97.wem</Path>
 				</File>
 				<File Id="954711377" Language="SFX">
 					<ShortName>wind_mid.wav</ShortName>
