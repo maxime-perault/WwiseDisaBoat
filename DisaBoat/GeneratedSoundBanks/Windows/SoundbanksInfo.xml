@@ -22,12 +22,53 @@
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1236136582" Name="Ambiance_play" ObjectPath="\Events\Default Work Unit\Ambiance_play"/>
-				<Event Id="1036050425" Name="poui_play" ObjectPath="\Events\Default Work Unit\poui_play"/>
+				<Event Id="202194903" Name="Music_play" ObjectPath="\Events\Default Work Unit\Music_play"/>
+				<Event Id="2477230596" Name="Wind_play" ObjectPath="\Events\Default Work Unit\Wind_play"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="369011889" Language="SFX">
+				<File Id="45495111" Language="SFX">
+					<ShortName>seagull-004.wav</ShortName>
+					<Path>SFX\seagull-004_56D34C19.wem</Path>
+				</File>
+				<File Id="164836163" Language="SFX">
+					<ShortName>wind_high.wav</ShortName>
+					<Path>SFX\wind_high_56D34C19.wem</Path>
+				</File>
+				<File Id="168314728" Language="SFX">
+					<ShortName>seagull-001.wav</ShortName>
+					<Path>SFX\seagull-001_56D34C19.wem</Path>
+				</File>
+				<File Id="171520191" Language="SFX">
 					<ShortName>sea_loop.wav</ShortName>
-					<Path>SFX\sea_loop_56D34C19.wem</Path>
+					<Path>SFX\sea_loop_8956FC97.wem</Path>
+				</File>
+				<File Id="195708947" Language="SFX">
+					<ShortName>wind_low.wav</ShortName>
+					<Path>SFX\wind_low_8956FC97.wem</Path>
+				</File>
+				<File Id="322729284" Language="SFX">
+					<ShortName>seagull-006.wav</ShortName>
+					<Path>SFX\seagull-006_56D34C19.wem</Path>
+				</File>
+				<File Id="475634709" Language="SFX">
+					<ShortName>seagull-003.wav</ShortName>
+					<Path>SFX\seagull-003_56D34C19.wem</Path>
+				</File>
+				<File Id="706409842" Language="SFX">
+					<ShortName>seagull-002.wav</ShortName>
+					<Path>SFX\seagull-002_56D34C19.wem</Path>
+				</File>
+				<File Id="726295904" Language="SFX">
+					<ShortName>musique placeholder 124.wav</ShortName>
+					<Path>SFX\musique placeholder 124_8956FC97.wem</Path>
+				</File>
+				<File Id="743011693" Language="SFX">
+					<ShortName>seagull-005.wav</ShortName>
+					<Path>SFX\seagull-005_56D34C19.wem</Path>
+				</File>
+				<File Id="954711377" Language="SFX">
+					<ShortName>wind_mid.wav</ShortName>
+					<Path>SFX\wind_mid_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -17,15 +17,29 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="poui_play" ID="{19A3AF51-712A-452A-8FFE-21503C2C5588}">
+				<Event Name="Wind_play" ID="{5B3376CD-E92F-4256-A98B-8857FDDE3394}">
 					<ChildrenList>
-						<Action Name="" ID="{F909939E-F9A4-4D48-B82A-0A9E94760E95}" ShortID="253695863">
+						<Action Name="" ID="{477B5AB1-EB0E-4812-965F-0B6B37983A84}" ShortID="467660465">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="poui" ID="{B18E5049-2A4D-4931-8564-E93C0E6ECE79}" WorkUnitID="{809AAB9C-5488-4FED-8156-9AEC7B2588E0}"/>
+									<ObjectRef Name="wind" ID="{D217ED5C-9C03-46E8-8545-C0D40BDE1522}" WorkUnitID="{809AAB9C-5488-4FED-8156-9AEC7B2588E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_play" ID="{A08778E8-5A85-4C51-9A49-DDEED70E4725}">
+					<ChildrenList>
+						<Action Name="" ID="{F88376A1-D9C3-40EA-A2DF-E4711DA28C76}" ShortID="272483250">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_loop" ID="{8F987947-43D8-49B2-A2F3-702F7D904997}" WorkUnitID="{E181357E-8886-459D-83E8-260F02AEB88B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

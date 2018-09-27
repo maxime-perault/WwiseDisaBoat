@@ -14,6 +14,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="sea_loop" ID="{5BCF6B4F-EC13-4721-A980-8CEE2F76AB07}" ShortID="209735026">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
@@ -26,15 +29,163 @@
 								<AudioFileSource Name="sea_loop" ID="{6D34AA97-1976-444C-884A-86FC35002530}" ShortID="369011889">
 									<Language>SFX</Language>
 									<AudioFile>sea_loop.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="171520191"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="sea_loop" ID="{6D34AA97-1976-444C-884A-86FC35002530}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="mouette" ID="{38D1B0ED-43F9-41E2-99B4-C7C78F644267}" ShortID="936968560">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C00CDBCF-6032-4005-AE82-A26F66820C39}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="seagull-001" ID="{56B15E80-13E3-4A55-ABE5-B9CBF396072B}" ShortID="1047773913">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="seagull-001" ID="{B10E5F47-AC06-4C9B-A98C-DA6854E09925}" ShortID="168314728">
+											<Language>SFX</Language>
+											<AudioFile>seagull-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="seagull-001" ID="{B10E5F47-AC06-4C9B-A98C-DA6854E09925}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="seagull-002" ID="{5AC0FA10-873E-4BD3-9D0D-C67AB696AE41}" ShortID="10838447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="seagull-002" ID="{B2545C54-75EF-4E27-8F72-D3168771BAA6}" ShortID="706409842">
+											<Language>SFX</Language>
+											<AudioFile>seagull-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="seagull-002" ID="{B2545C54-75EF-4E27-8F72-D3168771BAA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="seagull-003" ID="{2343BDAD-F4CF-43D3-B223-1C3A9A775FAD}" ShortID="999337136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="seagull-003" ID="{509C096D-1E58-466D-AEEA-3C27320B6EEF}" ShortID="475634709">
+											<Language>SFX</Language>
+											<AudioFile>seagull-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="seagull-003" ID="{509C096D-1E58-466D-AEEA-3C27320B6EEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="seagull-004" ID="{5631C3E5-DBD5-4A01-904A-D803AA8A47D6}" ShortID="271793262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="seagull-004" ID="{4A01DCF3-9654-41E8-9173-E4ECFEDBB09A}" ShortID="45495111">
+											<Language>SFX</Language>
+											<AudioFile>seagull-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="seagull-004" ID="{4A01DCF3-9654-41E8-9173-E4ECFEDBB09A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="seagull-005" ID="{170036A7-3DBE-4274-9EC9-3A4120D6B836}" ShortID="1947135">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="seagull-005" ID="{A91259F6-367B-4F69-8599-C8B1C530AE94}" ShortID="743011693">
+											<Language>SFX</Language>
+											<AudioFile>seagull-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="seagull-005" ID="{A91259F6-367B-4F69-8599-C8B1C530AE94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="seagull-006" ID="{DD04B2B4-0172-4BF3-B799-FA64F3E559C5}" ShortID="634331036">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="seagull-006" ID="{E1EE0270-4236-4C12-8074-A672B98BED17}" ShortID="322729284">
+											<Language>SFX</Language>
+											<AudioFile>seagull-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="seagull-006" ID="{E1EE0270-4236-4C12-8074-A672B98BED17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
-				<Sound Name="poui" ID="{B18E5049-2A4D-4931-8564-E93C0E6ECE79}" ShortID="243860617">
+				<BlendContainer Name="wind" ID="{D217ED5C-9C03-46E8-8545-C0D40BDE1522}" ShortID="16567546">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
@@ -44,18 +195,108 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="sea_loop" ID="{B7BFC408-CE10-42C9-8FB2-8FCAD41EDABE}" ShortID="171520191">
-							<Language>SFX</Language>
-							<AudioFile>sea_loop.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="369011889"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
+						<Sound Name="wind_low" ID="{12EEA8F8-FE8A-475E-A781-75858E7E7A3E}" ShortID="260325638">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_low" ID="{A441A1FD-CB77-4A55-949A-B4271061B883}" ShortID="195708947">
+									<Language>SFX</Language>
+									<AudioFile>wind_low.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="wind_high" ID="{057601DC-37AB-4AD1-91F3-BFE6B76688BC}" ShortID="62769874">
+									<Language>SFX</Language>
+									<AudioFile>wind_high.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_low" ID="{A441A1FD-CB77-4A55-949A-B4271061B883}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_mid" ID="{3610B27C-29A8-4896-BE02-50DE53A92606}" ShortID="406046422">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D56558D7-1878-40B0-A49F-F5422C26148E}" ShortID="530974650">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="speed" ID="{629DBF18-1A2E-424D-B2FF-FD81B7E20495}" WorkUnitID="{B338E30A-DC08-4317-81DC-B34176C4599F}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{68F2A968-9514-4D6A-9E5C-9FDC4AE1E1BA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_mid" ID="{14935EEA-01D6-498B-8065-8627A891ED2A}" ShortID="954711377">
+									<Language>SFX</Language>
+									<AudioFile>wind_mid.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_mid" ID="{14935EEA-01D6-498B-8065-8627A891ED2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_high" ID="{56B297A4-3F0A-47B7-B0D4-45B11F8ABEE4}" ShortID="397696339">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA68E839-1C5F-4CD3-8479-D35B602220BD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7B7778D5-6929-436D-A0B4-1541828D2C38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_high" ID="{ADBECE60-BB52-4FE5-8FB7-C343B1B8BEE2}" ShortID="164836163">
+									<Language>SFX</Language>
+									<AudioFile>wind_high.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_high" ID="{ADBECE60-BB52-4FE5-8FB7-C343B1B8BEE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="sea_loop" ID="{B7BFC408-CE10-42C9-8FB2-8FCAD41EDABE}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{72BC53ED-0265-4527-84B5-AF566CF5F3A4}" ShortID="262061232">
+							<ReferenceList/>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
